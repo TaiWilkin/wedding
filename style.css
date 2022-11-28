@@ -1,0 +1,109 @@
+:root {
+  --lavendar: #dba6f7;
+  --pink: #ff69b4;
+}
+
+body {
+  background-color: #121212;
+  color: var(--lavendar);
+  font-family: "GFS Didot", serif;
+  line-height: 1.5em;
+  font-size: 18px;
+  padding-bottom: 50px;
+}
+
+a,
+h1,
+h2,
+h3,
+strong {
+  color: var(--pink);
+  font-family: "Parisienne", cursive;
+  opacity: 0.9;
+}
+
+.container {
+  max-width: 50em;
+  margin: 0 auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+header {
+  background-color: rgba(219, 166, 247, 0.1);
+  padding-bottom: 1em;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  padding-right: 1em;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 2em;
+}
+
+h2 {
+  font-size: 1.75em;
+  line-height: 1.75em;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+a {
+  font-size: 1.25em;
+  line-height: 1.25em;
+}
+
+strong {
+  font-size: 1.4em;
+  line-height: 1.4em;
+}
+
+section {
+  margin-top: 1em;
+}
+
+nav li {
+  margin-top: 0.75em;
+}
+
+section ul {
+  padding-left: 1em;
+}
+
+section li {
+  margin-top: 1em;
+}
+
+section li h3:before {
+  content: "\2665";
+  padding-right: 5px;
+}
+
+p {
+  text-indent: 2em;
+  padding: 5px;
+  opacity: 0.9;
+}
+
+.tbd {
+  background-color: rgba(219, 166, 247, 0.1);
+  color: var(--pink);
+}
+
+.tbd:after {
+  content: " tbd>";
+}
+
+.tbd:before {
+  content: "<";
+}
