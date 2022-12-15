@@ -13,43 +13,63 @@
     <link rel="manifest" href="site.webmanifest" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=Parisienne&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Parisienne&family=Roboto"
       rel="stylesheet"
     />
   </head>
   <body>
     <header>
-      <div class="container">
-        <h1>Tai and Jem's Wedding</h1>
-
+      <div class="header">
+        <div class="title">
+          <h1>Jem <span>&amp;</span> Tai</h1>
+          <p>
+            <span>May 01, 2023</span> <span class="spacer"></span>
+            <span>Chadds Ford Township, PA</span>
+          </p>
+        </div>
         <nav>
           <ul>
-            <li><a href="#welcome">Welcome</a></li>
-            <li><a href="#registry">Registry</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#rsvp">RSVP</a></li>
-            <li><a href="#faq">Q&A</a></li>
+            <li>
+              <a href="#" target="_self">Top</a>
+            </li>
+            <li>
+              <a href="#information" target="_self">Information</a>
+            </li>
+            <li>
+              <a href="#registry" target="_self">Registry</a>
+            </li>
+            <li><a href="#faq" target="_self">Q&A</a></li>
+            <li>
+              <a href="#contact" target="_self">Contact</a>
+            </li>
           </ul>
         </nav>
       </div>
     </header>
 
     <main class="container">
-      <section id="welcome">
+      <div id="welcome">
         <h2>Welcome</h2>
+      </div>
+      <section id="information">
+        <h2>Wedding Information</h2>
         <p>
           We are excited to announce the wedding and handfasting of
           <strong>Jem/Jason MerWhint Corraggio</strong> and
           <strong>Tai Jamie Eliot Wilkin</strong> on May 1st, 2023 at 4pm at the
-          Gables at Chadds Ford <span class="tbd">address</span>.
+          Gables at Chadds Ford.
+          <p class="address">423 Baltimore Pike, Chadds Ford, PA 19317</p>.
         </p>
       </section>
+      <p class="heart">&#9829;</p>
       <section id="registry">
         <h2>Registry</h2>
         <p>
           Instead of material gifts, we would be honored if you contributed to
-          our honeyfund: <span class="tbd">link</span>
+          <a href="https://www.honeyfund.com/site/corraggio-wilkin-05-01-2023">our honeyfund</a>.
         </p>
         <p>
           If you would prefer to give a non-monetary gift, we also would
@@ -57,17 +77,7 @@
           let us know if you are available to help out.
         </p>
       </section>
-      <section id="contact">
-        <h2>Contact</h2>
-        <p>
-          For more information you can contact our wedding planner, Merida
-          Alexander, directly at <span class="tbd">contact information</span>
-        </p>
-      </section>
-      <section id="rsvp">
-        <h2>RSVP</h2>
-        Please RSVP at the link below: <span class="tbd">link</span>
-      </section>
+      <p class="heart">&#9829;</p>
       <section id="faq">
         <h2>Q&A</h2>
         <ul>
@@ -111,6 +121,14 @@
             <p>Formal, Black Tie Optional. No jeans please.</p>
           </li>
         </ul>
+      </section>
+      <p class="heart">&#9829;</p>
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>
+          For more information you can contact our wedding planner, <a href="mailto:eventsbymerida@gmail.com">Merida
+          Alexander</a>.
+        </p>
       </section>
     </main>
   </body>
